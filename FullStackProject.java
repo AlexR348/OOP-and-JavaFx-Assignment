@@ -22,7 +22,7 @@ public class FullStackProject extends Application {
         menuBar.getMenus().addAll(fileMenu, editMenu, themeMenu, helpMenu);
 
         // Image of a person on the left
-        Image image = new Image(getClass().getResource("download1.png").toExternalForm());  // Replace with your image file
+        Image image = new Image(getClass().getResource("download1.png").toExternalForm()); 
         ImageView imageView = new ImageView(image);
         imageView.setFitWidth(100);  // Set the desired width
         imageView.setFitHeight(100); // Set the desired height
@@ -62,7 +62,7 @@ public class FullStackProject extends Application {
         Button editButton = new Button("Edit");
 
         VBox formBox = new VBox(10, lastNameField, departmentField, majorField, emailField, imageURLField, clearButton, addButton, deleteButton, editButton);
-        formBox.setStyle("-fx-background-color: #90EE90;");  // Example green color
+        formBox.setStyle("-fx-background-color: #90EE90;");  //  Green color
 
         // Main layout with Image, TableView, and Form
         VBox leftBox = new VBox(imageView, tableView);  // Add image and TableView together
