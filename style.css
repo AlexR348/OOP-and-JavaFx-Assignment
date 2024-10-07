@@ -1,0 +1,22 @@
+/* Menu Bar Styling */
+.menu-bar {
+    -fx-background-color: #8B4513;  /* Brown color */
+    -fx-text-fill: white;
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: grey;
+}
+
+/* Form and Buttons */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: grey;
+}
+
+.button {
+    -fx-background-color: #A0522D;  /* Brown button */
+    -fx-text-fill: white;
+}
